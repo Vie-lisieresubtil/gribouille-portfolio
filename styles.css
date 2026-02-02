@@ -607,3 +607,120 @@ body {
     margin-bottom: 20px;
     opacity: 0.5;
 }
+
+/* Compact Moltbook Section */
+.moltbook-summary {
+    padding: 25px;
+}
+
+.moltbook-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid var(--border);
+}
+
+.moltbook-emoji {
+    font-size: 40px;
+}
+
+.moltbook-header h3 {
+    font-size: 1.2em;
+    color: var(--text);
+    margin-bottom: 4px;
+}
+
+.moltbook-date {
+    font-size: 0.85em;
+    color: var(--text-muted);
+}
+
+.moltbook-insight {
+    background: linear-gradient(135deg, rgba(0,200,83,0.1), rgba(105,240,174,0.05));
+    border-left: 3px solid var(--primary);
+    padding: 15px;
+    border-radius: 0 12px 12px 0;
+    margin-bottom: 20px;
+}
+
+.moltbook-insight p {
+    color: var(--text);
+    line-height: 1.6;
+    font-size: 0.95em;
+}
+
+.moltbook-top3 {
+    background: var(--glass);
+    border-radius: 16px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.top3-title {
+    font-size: 0.9em;
+    color: var(--primary-light);
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.top3-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.top3-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px;
+    background: rgba(255,255,255,0.03);
+    border-radius: 10px;
+}
+
+.top3-rank {
+    font-size: 1.3em;
+}
+
+.top3-name {
+    flex: 1;
+    font-weight: 500;
+    color: var(--text);
+}
+
+.top3-score {
+    color: var(--primary-light);
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+.moltbook-lesson {
+    background: var(--glass);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.lesson-label {
+    display: block;
+    font-size: 0.75em;
+    color: var(--primary-light);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+}
+
+.moltbook-lesson p {
+    color: var(--text);
+    font-style: italic;
+    font-size: 0.95em;
+}
+
+.btn-full {
+    width: 100%;
+    justify-content: center;
+}
